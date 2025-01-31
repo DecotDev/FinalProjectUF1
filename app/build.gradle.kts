@@ -47,4 +47,9 @@ dependencies {
     androidTestImplementation(libs.ext.junit)
     androidTestImplementation(libs.espresso.core)
     implementation(libs.material.v120)
+
+    implementation (libs.navigation.fragment.v230)
+    implementation (libs.navigation.ui.v230)
+    implementation (libs.viewpager2)
+    implementation (libs.material.v130alpha03)
 }
